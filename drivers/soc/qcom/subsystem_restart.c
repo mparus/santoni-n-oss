@@ -11,6 +11,7 @@
  */
 
 #define pr_fmt(fmt) "subsys-restart: %s(): " fmt, __func__
+#define WT_SUBSYSTEM_REASTART_LEVEL "related"
 
 #include <linux/kernel.h>
 #include <linux/module.h>
